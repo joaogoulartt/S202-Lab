@@ -40,3 +40,6 @@ def main():
             cli.delete_animal()
         elif option == 5:
             print('Programa encerrado')
+
+if __name__ == "__main__":
+    main()
