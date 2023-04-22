@@ -1,4 +1,3 @@
-from typing import Collection
 import pymongo
 
 class Database:
