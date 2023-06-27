@@ -33,7 +33,7 @@ def main():
 
         elif opcao == "2":
             name = input("Digite o nome: ")
-            category = category_model.get_category_by_name(name)
+            category = category_model.get_by_name(name)
             if category:
                 print(f"Nome: {category['name']}, Descrição: {category['description']}")
             else:
